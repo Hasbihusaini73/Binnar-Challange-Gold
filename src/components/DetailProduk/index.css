@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style: none; 
+    color: var(--black-color);
+  }
+
+:root{
+    /**Warna**/
+    --warnaUtama: #F1F3FF;
+    --warnaLogo: #0D28A6;
+    --warnaTombol: #5CB85F;
+    --warnaTulisan: #000000;
+    --yellow-color: #f9cc00;
+    --red-color: #fa2c5a;
+    --white-color: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box !important;
+}
+
+/**------------------------------------NAVBAR------------------------------------**/
+.navbar{
+    background-color: var(--warnaUtama) !important;
+
+}
+.navbar-brand{
+    background-color: var(--warnaLogo);
+    width: 4em;
+    text-align: center;
+    color: var(--warnaTulisan);
+}
+.nav-link{
+    color: var(--warnaTulisan) !important;
+}
+.navbar-toggler-icon{
+    background-color: var(--warnaTulisan);
+}
+.logo {
+    position: relative;
+    width: 6rem;
+    height: 2rem;
+    background: var(--warnaLogo);
+}
+
+/**------------------------------------HOME------------------------------------**/
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--warnaUtama);
+    width: 100%;
+    height: 30vh;
+}
+.home .container{
+    height: 25vh;
+}
+.detail-produk .container{
+    margin-bottom: 5em;
+}
+.detail-produk .container .row .kolom1{
+    padding: 1.5em;
+    border: 2px solid blue;
+}
+.detail-produk .container .row .kolom1 .detail-teks h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 5em;
+    margin-left: 4em;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+    -moz-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+}
+.container .card img{
+    margin: 10px;
+    margin-left: 40px;
+    width: 80%;
+    height: 70%;
+    border-radius: 4px;
+}
+.kolom2 .card .card-body{
+    margin-left: 30px;
+}
+.kolom2 .card .card-body .card-text {
+    margin-bottom: 4em;
+}
+.kolom2 .card .card-body span{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.kolom2 .card .card-body p{
+    font-weight: bold;
+}
+.kolom2 .card .card-body .harga{
+    font-weight: bold;
+    margin-left: 14em;
+}
+
+
+/**------------------------------------MEDIA QUERY------------------------------------**/
+ 
+ /**Tampilan di bawah 768px**/
+ @media screen and (min-width: 768px){
+    .navbar-collapse{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+/**------------------------------------PENCARIAN------------------------------------**/
+    .pencarian{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        background-color: var(--white-color);
+    }
+
+    .pencarian .container .row .col {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+        padding-left: 3em;
+        padding-right: 2em;
+        margin-top: -8rem;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        border: 2px solid grey;
+        background-color: var(--white-color);
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    .pencarian .container .row .col .input0{
+        width: 22%;
+    
+    }
+    .pencarian .container .row .col .input1{
+        width: 22%;
+    }
+    .pencarian .container .row .col .input2{
+        width: 22%;
+    }
+    .pencarian .container .row .col .input3{
+        width: 22%;
+    }
+    .form{
+        border: 1px solid black;
+    }
+    .form-select{
+        border: 1px solid black;
+    }
+    .pencarian .container .row .col .text{
+        position: absolute;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: -38px;
+
+    }
+    .pencarian .container .row .col .text h5{
+        padding-top: 2px;
+        /* width: 20px; */
+        display: flex;
+        justify-content: flex-start;
+    }
+    /**------------------------------------FOOTER------------------------------------**/
+    .kolom .paragrap2{
+        margin-left:3em;
+    }
+    .footer .container .row .kolom i{
+        padding: 0.18em;
+        background-color: var(--warnaLogo);
+        color: var(--warnaUtama);
+        border-radius: 50%;
+
+    }
+    .kolom .paragrap4{
+        margin-left: 2em;
+    }
+
+    .kolom .logo {
+        margin-left: 2em;
+        position: relative;
+        width: 6rem;
+        height: 2rem;
+        background: var(--warnaLogo);
+    }
+  }
+
+ 
