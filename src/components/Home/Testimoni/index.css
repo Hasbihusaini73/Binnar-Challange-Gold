@@ -1,0 +1,27 @@
+#container-testimoni {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+#container-testimoni > .container > .row > .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container-testimoni > .container > .container-owl-card {
+    width: 250%;
+    display: flex;
+}
+
+#container-testimoni > .container > .container-owl-card > .owl-item  > .card {
+    width: 80%;
+
+    padding: 20px;
+    
+}
+
+#container-testimoni > .container > .container-owl-card > .owl-item  > .card > .container-image > img {
+    width: 25%;
+}

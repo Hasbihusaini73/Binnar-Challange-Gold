@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+    #pencarian > .pencarian{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: .6rem 0 3rem 0;
+        z-index: 9999;
+        background-color: var(--white-color) !important;
+
+    }
+
+    #pencarian > .pencarian .container .row .col {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: -3rem;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        border: 2px solid grey;
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    #pencarian > .pencarian .container .row .col .input0{
+        width: 20%;
+    }   
+    #pencarian > .pencarian .container .row .col .input1{
+        width: 20%;
+    }
+    #pencarian > .pencarian .container .row .col .input2{
+        width: 20%;
+    }
+    #pencarian > .pencarian .container .row .col .input3{
+        width: 20%;
+    }
+    #pencarian > .pencarian >.container > .row > .col > .btn-input > button  {
+        border: none;
+    }
+    #pencarian > .pencarian >.container > .row > .col > .btn-input > button > a.sewa {
+        padding: 1rem;
+        width: 100%;
+        display: inline-block;
+        margin-right: 1em;
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--warnaUtama);
+        background-color: var(--warnaTombol);
+    }
+}

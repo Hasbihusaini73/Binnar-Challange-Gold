@@ -1,0 +1,95 @@
+.whyUs .row{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+.whyUs .row .bungkus{
+    padding: 1.5em;
+    width: 22%;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid grey;
+    box-shadow: 5px 5px  #888888;
+    
+}
+.whyUs .container .row .col h1{
+    padding-top: 0.5em;
+}
+.whyUs .container .row .col p{
+
+}
+
+.whyUs .row .bungkus h1{
+    font-size: 20px;
+}
+.whyUs .row .bungkus p{
+    font-size: 15px;
+    
+}
+
+.whyUs .row .bungkus i{
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--warnaUtama);
+    margin-bottom: 0.75rem;
+}
+
+.whyUs .row .bungkus:nth-child(1) i{
+    background: #f9cc00;
+}
+.whyUs .row .bungkus:nth-child(2) i{
+    background: #fa2c5a;
+}
+.whyUs .row .bungkus:nth-child(3) i{
+    background: #0D28A6;
+}
+.whyUs .row .bungkus:nth-child(4) i{
+    background: #5CB85F;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .whyUs{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .whyUs .row .col{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .whyUs .row .bungkus{
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid black;
+        padding: 1em;
+        margin-bottom: 2em;
+        width: 80%;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px  #888888;
+        margin-top: 0;
+    }
+
+    .whyUs .container .row h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whyUs .container .row p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+#Detail > .detail-produk .container{
+    margin-bottom: 5em;
+}
+#Detail > .detail-produk .container .row .kolom1{
+    padding: 1.5em;
+    border: 2px solid blue;
+}
+#Detail > .detail-produk .container .row .kolom1 .detail-teks h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#Detail > .card{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 5em;
+    margin-left: 4em;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+    -moz-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+}
+#Detail > .container .card img{
+    margin: 10px;
+    margin-left: 40px;
+    width: 80%;
+    height: 70%;
+    border-radius: 4px;
+}
+#Detail > .kolom2 .card .card-body{
+    margin-left: 30px;
+}
+#Detail > .kolom2 .card .card-body .card-text {
+    margin-bottom: 4em;
+}
+#Detail > .kolom2 .card .card-body span{
+    margin-left: 15px;
+    font-size: 15px;
+}
+#Detail > .kolom2 .card .card-body p{
+    font-weight: bold;
+}
+#Detail > .kolom2 .card .card-body .harga{
+    font-weight: bold;
+    margin-left: 14em;
+}

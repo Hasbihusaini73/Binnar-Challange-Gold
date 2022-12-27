@@ -1,0 +1,47 @@
+
+
+#landingPage > section.home{
+    background-color: var(--warnaUtama);
+    height: auto;
+    padding: 100px 0;
+}
+
+#landingPage > section.home > div.container > div.row {
+    margin-top: -1em;
+    /* overflow: hidden; */
+}
+#landingPage > section.home > div.container > div.row > div.kotak > div.btn-home > button {
+    background-color: var(--warnaTombol);
+    padding: 0.5em;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+#landingPage > section.home > div.container > div.row > div.kotak > div.btn-home > button > a {
+    padding: 1em;
+}
+#landingPage > section.home > div.container > div.row > div.kotak > div.btn-home > button > a.sewa {
+    color: var(--warnaUtama);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#landingPage > section.home > div.container > div.row >  div.container-image > div.banner-image > img { 
+    position: relative !important;
+    right: 4rem;
+    left: 0.5rem;
+    bottom: 10rem;
+    width: auto;
+ }
+
+ #landingPage > section.home > div.container > div.row >  div.container-image > div.banner-image {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 120%;
+    top: 20%;
+    bottom: 0;
+    right: 0;
+    background: blue ;
+    border-radius: 50px 0 0 0;
+  }

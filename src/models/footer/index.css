@@ -1,0 +1,49 @@
+.kolom .paragrap2{
+    margin-left:3em;
+
+}
+.footer .container .row .kolom i{
+    padding: 0.18em;
+    background-color: var(--warnaLogo);
+    color: var(--warnaUtama);
+    border-radius: 50%;
+    
+}
+.kolom .paragrap4{
+    margin-left: 2em;
+    
+}
+
+.kolom .logo {
+    margin-left: 2em;
+    position: relative;
+    width: 6rem;
+    height: 2rem;
+  
+    background: var(--warnaLogo);
+    
+}
+
+  @media screen and (max-width: 1000px) {
+    .kolom .paragrap2{
+        margin-left:3em;
+    }
+    .footer .container .row .kolom i{
+        padding: 0.18em;
+        background-color: var(--warnaLogo);
+        color: var(--warnaUtama);
+        border-radius: 50%;
+    
+    }
+    .kolom .paragrap4{
+        margin-left: 2em;
+    }
+    
+    .kolom .logo {
+        margin-left: 2em;
+        position: relative;
+        width: 6rem;
+        height: 2rem;
+        background: var(--warnaLogo);
+      }
+  }

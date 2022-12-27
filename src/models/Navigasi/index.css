@@ -1,0 +1,35 @@
+.navbar{
+    background-color: var(--warnaUtama) !important;
+    width: 100%;
+}
+
+#navbar >.navbar > .container {
+    display: flex;
+    width: 100%;
+
+}
+
+#navbar >.navbar > .container > .navbar-collapse {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.navbar-brand{
+    background-color: var(--warnaLogo);
+    width: 4em;
+    text-align: center;
+    color: var(--warnaTulisan);
+}
+.nav-link{
+    color: var(--warnaTulisan) !important;
+}
+.container-logo {
+    width: 50%;
+}
+.logo {
+    
+    position: relative;
+    width: 6rem;
+    height: 2rem;
+    background: var(--warnaLogo);
+  }

@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px)  {
+    #headerHasil > .hasil-pencarian {
+        display: flex;
+        justify-content: center;
+    }
+    #headerHasil > .hasil-pencarian .container{
+        display: flex;
+        justify-content: center;
+    }
+    #headerHasil > .hasil-pencarian .container .card{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        margin-bottom: 5em;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+        -webkit-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+        -moz-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+    }
+    #headerHasil > .container .card img{
+        margin: 10px;
+        margin-left: 35px;
+        width: 100%;
+        border-radius: 4px;
+    
+    }
+    #headerHasil > .hasil-pencarian button{
+        width: 100%;
+        color: var(--white-color);
+        background-color: var(--warnaTombol);
+        
+    }
+    #headerHasil > .hasil-pencarian button a{
+        color: white;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    #headerHasil > .hasil-pencarian .container .card{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+        width: 90%;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+        -webkit-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+        -moz-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
+    }
+    #headerHasil > .hasil-pencarian button{
+        width: 100%;
+        color: var(--white-color);
+        background-color: var(--warnaTombol);
+    }
+    #headerHasil > .hasil-pencarian button a{
+        color: var(--white-color);
+        width: 100%;
+    }
+    
+}
