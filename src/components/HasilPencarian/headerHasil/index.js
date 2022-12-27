@@ -6,7 +6,7 @@ export default function HeaderHasil() {
         <section className="hasil-pencarian" id="hasil-pencarian">
                 <div className="container">
                     <div className="card me-5">
-                        <img src={require("./mobil6.jpg")} className="card-img-top" alt="Kemeja Adj"/>
+                        <img src={require("./mobil6.jpg")} className="card-img-top" alt="Kemeja Adj" width={100}/>
                         <div className="card-body">
                             <h5 className="card-title">HotWheels</h5>
                             <p className="card-text">Rp 500.000 / hari</p>
@@ -16,7 +16,7 @@ export default function HeaderHasil() {
                     </div>
                     
                     <div className="card me-5">
-                        <img src={require("./mobil5.jpg")} className="card-img-top" alt="Kemeja Adj"/>
+                        <img src={require("./mobil5.jpg")} className="card-img-top" alt="Kemeja Adj"width={100}/>
                         <div className="card-body">
                             <h5 className="card-title">HotWheels</h5>
                             <p className="card-text">Rp 500.000 / hari</p>

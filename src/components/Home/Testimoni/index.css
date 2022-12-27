@@ -1,6 +1,5 @@
 #container-testimoni {
     width: 100%;
-
     overflow-x: auto;
 }
 
@@ -9,19 +8,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    position: relative;
+    
 }
 #container-testimoni > .container > .container-owl-card {
-    width: 250%;
+    width: 230%;
     display: flex;
+    padding: 40px;
 }
 
 #container-testimoni > .container > .container-owl-card > .owl-item  > .card {
-    width: 80%;
-
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
     
 }
 
-#container-testimoni > .container > .container-owl-card > .owl-item  > .card > .container-image > img {
-    width: 25%;
+#container-testimoni > .container > .container-owl-card > .owl-item  > .card > .container-image {
+
 }
+#container-testimoni > .container > .container-owl-card > .owl-item  > .card > .container-image > img {
+    width: 20%;
+    height: 80px;
+}
+/* #container-testimoni > .container > .container-owl-card > .owl-item  > .card > .container-image > .container-megan {
+    background-color: red;
+} */

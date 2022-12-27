@@ -18,12 +18,10 @@
         -webkit-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
         -moz-box-shadow: 10px -12px 9px -2px rgba(0,0,0,0.21);
     }
-    #headerHasil > .container .card img{
-        margin: 10px;
-        margin-left: 35px;
+    #headerHasil >  .hasil-pencarian > .container > .card > img {
         width: 100%;
-        border-radius: 4px;
-    
+        height: 230px;
+        
     }
     #headerHasil > .hasil-pencarian button{
         width: 100%;

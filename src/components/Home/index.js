@@ -5,6 +5,7 @@ import Service from "./Service/indexx"
 import WhyUs from "./whyUs"
 import Faq from "./Faq"
 import Testimoni from "./Testimoni"
+import SewaMobil from "./SewaMobil"
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <Service />
             <WhyUs />
             <Testimoni />
+            <SewaMobil />
             <Faq />
             <Footer />
         </>

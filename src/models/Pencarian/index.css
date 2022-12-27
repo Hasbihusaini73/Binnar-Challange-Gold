@@ -6,7 +6,7 @@
         padding: .6rem 0 3rem 0;
         z-index: 9999;
         background-color: var(--white-color) !important;
-
+        
     }
 
     #pencarian > .pencarian .container .row .col {
@@ -19,7 +19,8 @@
         border: 2px solid grey;
         border-radius: 4px 4px 4px 4px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
+        background-color: white;    
+    }
     #pencarian > .pencarian .container .row .col .input0{
         width: 20%;
     }   

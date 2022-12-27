@@ -26,7 +26,7 @@ export default function Testimoni() {
                     <div className="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div> 
                     <div className=" container-image d-flex flex-row profile pt-4 mt-auto"> 
                     <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-circle"/> 
-                    <div className="d-flex flex-column pl-2"> 
+                    <div className="d-flex container-megan flex-column pl-2"> 
                         <div className="name">Megan</div> 
                         <p className="text-muted designation">CEO of My Company</p> 
                     </div> 
