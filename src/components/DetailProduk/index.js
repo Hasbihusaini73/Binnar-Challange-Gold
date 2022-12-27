@@ -11,7 +11,7 @@ export default function DetailProduk() {
     return (
         <>
             <Navigasi />
-            <div class="headerDetailProduk"></div>
+            <div className="headerDetailProduk"></div>
             <Pencarian />
             <Detail id={id} />
             <Footer />

@@ -10,12 +10,12 @@ export default function Pencarian() {
                         <div className="col">
                             <div className="input0 me-3">
                                 <div className="form-floating-md mb-3">
-                                    <label for="inputNama" className="form-label">Nama Mobil</label>
+                                    <label htmlFor="inputNama" className="form-label">Nama Mobil</label>
                                     <input type="name" className=" form form-control" id="floatingInput" placeholder="Honda Civic" />
                                 </div>
                             </div>
                             <div className="input1 me-3">
-                                <label for="inputKategori" className="form-label">Kategori</label>
+                                <label htmlFor="inputKategori" className="form-label">Kategori</label>
                                 <select className="form-select form-select-md" aria-label=".form-select-sm example">
                                     <option value="4">Masukan Kapasitas Mobil</option>
                                     <option value="1">One</option>
@@ -24,7 +24,7 @@ export default function Pencarian() {
                                 </select>
                             </div>
                             <div className="input2 me-3">
-                                <label for="inputHaga" className="form-label">Harga</label>
+                                <label htmlFor="inputHaga" className="form-label">Harga</label>
                                 <select className="form-select form-select-md" aria-label=".form-select-sm example">
                                     <option value="4">Masukan Harga Sewa</option>
                                     <option value="1">One</option>
@@ -33,7 +33,7 @@ export default function Pencarian() {
                                 </select>
                             </div>
                             <div className="input3 me-3">
-                                <label for="inputStatus" className="form-label">Status</label>
+                                <label htmlFor="inputStatus" className="form-label">Status</label>
                                 <select className="form-select form-select-md" aria-label=".form-select-sm example">
                                     <option value="4">Disewa</option>
                                     <option value="1">One</option>
