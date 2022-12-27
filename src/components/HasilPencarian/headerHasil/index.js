@@ -1,7 +1,7 @@
 import "./index.css"
 import { useState, useEffect } from "react"
 import axios from "axios"
-
+import {Link} from "react-router-dom"
 export default function HeaderHasil() {
     const [data, setData] = useState([])
     
@@ -25,7 +25,7 @@ export default function HeaderHasil() {
                             <h5 className="card-title">{item.name}</h5>
                             <p className="card-text">{item.price}/ hari</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                            <button><a href="#" className="btn">Pilih Mobil</a></button>
+                            <button><Link to={`/DetailProduk/${item.id}`} className="btn">Pilih Mobil</Link></button>
                         </div>
                     </div>
                     ))) : <p>Data Kosong</p>}
