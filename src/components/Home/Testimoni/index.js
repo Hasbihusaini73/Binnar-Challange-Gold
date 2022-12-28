@@ -1,121 +1,110 @@
+import React from 'react';
 import "./index.css"
+import jhon from '../../../Assets/jhon.png';
+import jinny from '../../../Assets/jinny.png';
+import Rate from '../../../Assets/Rate.png';
+import Leftbutton from '../../../Assets/Leftbutton.png';
+import Rightbutton from '../../../Assets/Rightbutton.png';
 
-export default function Testimoni() {
+
+const Testimoni = () => {
     return (
-        <>
-            <section className="testimoni mt-5" id="container-testimoni">
-            <div className="container">
-                <div className="row">
-                <div className="col">
-                    <h1>Testimonial</h1>
-                    <p>Berbagai review positif dari para pelanggan kami</p>
+            <section id="testi" className="testimonial">
+                <div className="container mt-5 pt-3">
+                    <div className="row text-center">
+                        <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <h1 className="fw-bold">Testimonial</h1>
+                            <h6 className="fw-bold">Berbagai review positif dari para pelanggan kami</h6>
+                        </div>
+                    </div>
                 </div>
+                <div className="container-fluid">
+                    <div className="row g-5 justify-content-evenly d-flex flex-lg-row flex-nowrap">
+                        <div className="col-lg-6">
+                            <div className="card mt-5 mb-5 custom-card-testimoni">
+                                <div className="row g-0">
+                                    <div className="col-2 col-md-4 mt-5 mb-5">
+                                        <img src={jinny} alt="jhon"
+                                        className="jhon img-fluid position-absolute top-50 start-0 translate-middle" />
+                                    </div>
+                                    <div className="col-6 col-md-7">
+                                        <div className="card-body d-flex flex-column">
+                                            <div className="h-100">
+                                                <img src={Rate} alt="rate" className="img-fluid mt-5" />
+                                                <p className="fw-bold mt-1">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                                                </p>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span id="text-name">John Dee 32, Bromo</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <div className="card mt-5 mb-5 custom-card-testimoni position-relative">
+                                <div className="row g-0 customrow">
+                                    <div className="col-2 col-md-4 mt-5 mb-5">
+                                        <img src={jhon} alt="jhon"
+                                        className="jhon jhon2 img-fluid position-absolute top-50 start-0 translate-middle" />
+                                    </div>
+                                    <div className="col-6 col-md-7">
+                                        <div className="card-body d-flex flex-column">
+                                            <div className="h-100 jalansendiri">
+                                                <div className="sijhon position-relative d-lg-none d-xxl-none d-md-none d-sm-none d-xl-none">
+                                                <img src={jhon} alt="jhon" />
+                                                </div>
+                                                <img src={Rate} alt="rate" className="img-fluid mt-5" />
+                                                <p className="fw-bold mt-1">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                                                </p>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span id="text-name">John Dee 32, Bromo</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <div className="card mt-5 mb-5 custom-card-testimoni">
+                                <div className="row g-0">
+                                    <div className="col-2 col-md-4 mt-5 mb-5">
+                                        <img src={jinny} alt="jhon"
+                                        className="jhon img-fluid position-absolute top-50 start-0 translate-middle" />
+                                    </div>
+                                    <div className="col-6 col-md-7">
+                                        <div className="card-body d-flex flex-column">
+                                            <div className="h-100">
+                                                <img src={Rate} alt="rate" className="img-fluid mt-5" />
+                                                <p className="fw-bold mt-1">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                                                </p>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span id="text-name">John Dee 32, Bromo</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="d-flex justify-content-evenly align-items-center">
+                        <div className="btn di-pencet">
+                        <button type="button" className="pencetKiri"><img src={Leftbutton} alt="left" /></button>
+                        <button type="button" className="pencetKanan"><img src={Rightbutton} alt="right" /></button>
+                        </div>
+                    </div>
                 </div>
-                <div className="container rounded mb-5"> 
-                </div> 
-                <div className="container-owl-card owl-theme container-card-owl"> 
-                    <div className="owl-item"> 
-                    <div className="card d-flex flex-column"> <div className="mt-2"> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star-half-alt active-star"></span> 
-                    </div> 
-                    <div className="main font-weight-bold pb-2 pt-1">Great Service</div> 
-                    <div className="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div> 
-                    <div className=" container-image d-flex flex-row profile pt-4 mt-auto"> 
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-circle"/> 
-                    <div className="d-flex container-megan flex-column pl-2"> 
-                        <div className="name">Megan</div> 
-                        <p className="text-muted designation">CEO of My Company</p> 
-                    </div> 
-                    </div> 
-                </div> 
-                </div> 
-                <div className="owl-item"> 
-                <div className="card d-flex flex-column"> 
-                    <div className="mt-2"> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star-half-alt active-star"></span> 
-                    </div> 
-                    <div className="main font-weight-bold pb-2 pt-1">Great Service</div> 
-                    <div className="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div> 
-                    <div className="container-image d-flex flex-row profile pt-4 mt-auto"> 
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-circle" /> 
-                    <div className="d-flex flex-column pl-2"> 
-                        <div className="name">Megan</div> 
-                        <p className="text-muted designation">CEO of My Company</p> 
-                    </div> 
-                    </div> 
-                </div> 
-                </div> 
-                <div className="owl-item"> 
-                <div className="card d-flex flex-column"> 
-                    <div className="mt-2"> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star-half-alt active-star"></span> 
-                    </div> 
-                    <div className="main font-weight-bold pb-2 pt-1">Great Service</div> 
-                    <div className="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div> 
-                    <div className="container-image d-flex flex-row profile pt-4 mt-auto"> 
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-circle" /> 
-                    <div className="d-flex flex-column pl-2"> 
-                        <div className="name">Megan</div> 
-                        <p className="text-muted designation">CEO of My Company</p> 
-                    </div> 
-                    </div> 
-                </div> 
-                </div> 
-                <div className="owl-item"> 
-                <div className="card d-flex flex-column"> 
-                    <div className="mt-2"> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star-half-alt active-star"></span> 
-                    </div> 
-                    <div className="main font-weight-bold pb-2 pt-1">Great Service</div> 
-                    <div className="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div> 
-                    <div className="d-flex container-image flex-row profile pt-4 mt-auto"> 
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-circle" /> 
-                    <div className="d-flex flex-column pl-2"> 
-                        <div className="name">Megan</div> 
-                        <p className="text-muted designation">CEO of My Company</p> 
-                    </div> 
-                    </div> 
-                </div> 
-                </div> 
-                <div className="owl-item"> 
-                <div className="card d-flex flex-column"> 
-                    <div className="mt-2"> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star active-star"></span> 
-                    <span className="fas fa-star-half-alt active-star"></span> 
-                    </div> 
-                    <div className="main font-weight-bold pb-2 pt-1">Great Service</div> 
-                    <div className="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div> 
-                    <div className="d-flex container-image flex-row profile pt-4 mt-auto"> 
-                    <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-circle" /> <div className="d-flex flex-column pl-2" > 
-                        <div className="name">Megan</div> 
-                        <p className="text-muted designation">CEO of My Company</p> 
-                    </div> 
-                    </div> 
-                </div> 
-                </div> 
-                </div> 
-                </div>
-            
-    </section>
-        </>
+            </section>
     )
 }
+
+export default Testimoni

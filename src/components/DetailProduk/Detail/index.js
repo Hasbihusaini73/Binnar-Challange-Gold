@@ -4,19 +4,20 @@ import axios from "axios"
 export default function Detail(props) {
     const {id} = props
     const [data, setData] = useState(null) 
-    const urlApi = `https://bootcamp-rent-cars.herokuapp.com/admin/car/${id}`
+    const urlApi =   `https://bootcamp-rent-cars.herokuapp.com/admin/car/${id}`
     useEffect(() => {
+        console.log(id)
         axios.get(urlApi, {
             "headers": {
                 "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTI0MjUwOX0.ZTx8L1MqJ4Az8KzoeYU2S614EQPnqk6Owv03PUSnkzc"
             }}).then(res => {
                 setData(res.data)
-                console.log(res.data)
+
             })
     }, [])
     return (
         <>
-        {data === null ? (<p>data tidak ada </p>) : 
+        {data === null ? (<p className="dataNull"> Data Tidak Ditemukan </p>) : 
         <div id="Detail">
         <section className="detail-produk mb-5" id="detail-produk">
                 <div className="container">

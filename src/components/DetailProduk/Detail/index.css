@@ -46,3 +46,15 @@
     font-weight: bold;
     margin-left: 14em;
 }
+
+
+@media screen and (max-width: 1000px){
+    #Detail > .detail-produk .container .row .kolom1  {
+        margin: 50px 0;
+    }
+}
+
+.dataNull {
+    text-align: center;
+    margin: 20px 0;
+}

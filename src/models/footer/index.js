@@ -17,7 +17,7 @@ export default function Footer() {
                             <p className="paragrap2 mt-2 ">Testimoni</p>
                             <p className="paragrap2 mt-2 ">FAQ</p>
                         </div>
-                        <div className="kolom col-lg-3">
+                        <div className="kolom kolom-logo col-lg-3">
                             <p className="paragrap3 mt-2 fw-bold">Connect with us</p>
                             <a href="#"><i className='bx bxl-facebook-circle bx-sm me-2'></i></a>
                             <a href="#"><i className='bx bxl-instagram-alt bx-sm me-2' ></i></a>

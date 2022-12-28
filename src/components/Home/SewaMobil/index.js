@@ -1,5 +1,5 @@
 import "./index.css"
-
+import {Link} from "react-router-dom"
 function SewaMobil() {
     return (
         <div id="sewaMobil">
@@ -9,7 +9,7 @@ function SewaMobil() {
                     <div class="col fw-bold">
                         <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <button><a href="cari-mobil.html">Mulai Sewa Mobil</a></button>
+                        <button><Link to="/CariMobil">Mulai Sewa Mobil</Link></button>
                     </div>
                     </div>
                 </div>

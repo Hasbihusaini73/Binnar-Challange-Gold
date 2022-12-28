@@ -45,3 +45,29 @@
     background: blue ;
     border-radius: 50px 0 0 0;
   }
+
+
+
+@media screen and (max-width: 1000px) {
+    #landingPage > section.home{
+        font: 400px;
+        height: 85vh;
+        padding-top: 8rem;
+        overflow: hidden;
+    }
+    
+    #landingPage > section.home > div.container > div.row >  div.container-image  {
+        height: 300px;
+        padding-top: 100px !important;
+    }
+    #landingPage > section.home > div.container > div.row >  div.container-image > div.banner-image > img  {
+        padding-top: 60px;
+    }
+    
+    #landingPage > section.home > div.container > div.row >  div.container-image > div.banner-image {
+        padding-bottom: 500px;
+    }
+}
+
+
+

@@ -1,18 +1,6 @@
 .navbar{
     background-color: var(--warnaUtama) !important;
-    width: 100%;
-}
 
-#navbar >.navbar > .container {
-    display: flex;
-    width: 100%;
-
-}
-
-#navbar >.navbar > .container > .navbar-collapse {
-    width: 50%;
-    display: flex;
-    justify-content: end;
 }
 .navbar-brand{
     background-color: var(--warnaLogo);
@@ -23,13 +11,22 @@
 .nav-link{
     color: var(--warnaTulisan) !important;
 }
-.container-logo {
-    width: 50%;
+.navbar-toggler-icon{
+    background-color: var(--warnaTulisan);
 }
 .logo {
-    
     position: relative;
     width: 6rem;
     height: 2rem;
     background: var(--warnaLogo);
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+    .navbar-collapse{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
   }

@@ -1,4 +1,13 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    #pencarian > .pencarian > .container > .row > .col > .container-option{
+        width: 18% !important;
+    }   
+    #pencarian > .pencarian .container .row .col {
+        margin-top: -2rem !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
     #pencarian > .pencarian{
         position: relative;
         display: flex;
@@ -13,26 +22,17 @@
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        margin-top: -3rem;
+        margin-top: -3rem;  
         padding-top: 2em;
         padding-bottom: 2em;
         border: 2px solid grey;
         border-radius: 4px 4px 4px 4px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        background-color: white;    
+        background-color: var(--white-color);
     }
-    #pencarian > .pencarian .container .row .col .input0{
+    #pencarian > .pencarian > .container > .row > .col > .container-option{
         width: 20%;
     }   
-    #pencarian > .pencarian .container .row .col .input1{
-        width: 20%;
-    }
-    #pencarian > .pencarian .container .row .col .input2{
-        width: 20%;
-    }
-    #pencarian > .pencarian .container .row .col .input3{
-        width: 20%;
-    }
     #pencarian > .pencarian >.container > .row > .col > .btn-input > button  {
         border: none;
     }
@@ -47,3 +47,25 @@
         background-color: var(--warnaTombol);
     }
 }
+
+
+#pencarian > .pencarian > .container > .row > .col > .container-option {
+    margin: 10px 0;
+}
+
+#pencarian > .pencarian >.container > .row > .col > .btn-input > button > a.sewa {
+    padding: 1rem;
+    width: 100%;
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--warnaUtama);
+    background-color: var(--warnaTombol);
+}
+
+
+#pencarian > .pencarian .container .row .col .container-option .form-floating{
+    width: 20%;
+    margin: 100px 0;
+} 

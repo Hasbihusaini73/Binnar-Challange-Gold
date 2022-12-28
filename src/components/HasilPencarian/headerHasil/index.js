@@ -2,19 +2,22 @@ import "./index.css"
 import { useState, useEffect } from "react"
 import axios from "axios"
 import {Link} from "react-router-dom"
-export default function HeaderHasil() {
+
+
+export default function HeaderHasil(props) {
     const [data, setData] = useState([])
-    
     useEffect(() => {
         axios.get("https://bootcamp-rent-cars.herokuapp.com/admin/v2/car", {
             "headers": {
                 "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTI0MjUwOX0.ZTx8L1MqJ4Az8KzoeYU2S614EQPnqk6Owv03PUSnkzc"
             }}).then(res => {
                 setData(res.data.cars)
-                console.log(res.data.cars)
+                console.log(props.data)
+                
             })
     }, [])
     return (
+
         <div id="headerHasil">
         <section className="hasil-pencarian" id="hasil-pencarian">
                 <div className="container">
