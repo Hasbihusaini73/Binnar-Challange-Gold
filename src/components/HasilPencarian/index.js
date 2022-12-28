@@ -6,12 +6,10 @@ import Hasil from "./headerHasil"
 import { useState } from "react"
 
 export default function HasilPencarian() {
-    const [onDesainData, setOnDesainData] = useState(false)
     const [data, setData] = useState(null)
     
     function showHasil(res) {
-        setOnDesainData(true)
-        setData(res)
+        setData(res)    
     }
 
     return (
@@ -19,7 +17,7 @@ export default function HasilPencarian() {
             <Navigasi />
             <div className="headerHasilPencarian"></div>
             <Pencarian setShowHasil={showHasil}  value="hello" />
-            {onDesainData && <Hasil data={data} /> }
+            <Hasil data={data} />
             <Footer />
         </>
     )

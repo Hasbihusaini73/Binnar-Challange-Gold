@@ -5,15 +5,14 @@ import {Link} from "react-router-dom"
 
 
 export default function HeaderHasil(props) {
-    const [data, setData] = useState([])
+    const [data, setData] = useState(null)
+    
     useEffect(() => {
         axios.get("https://bootcamp-rent-cars.herokuapp.com/admin/v2/car", {
             "headers": {
                 "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTI0MjUwOX0.ZTx8L1MqJ4Az8KzoeYU2S614EQPnqk6Owv03PUSnkzc"
             }}).then(res => {
                 setData(res.data.cars)
-                console.log(props.data)
-                
             })
     }, [])
     return (
@@ -21,7 +20,7 @@ export default function HeaderHasil(props) {
         <div id="headerHasil">
         <section className="hasil-pencarian" id="hasil-pencarian">
                 <div className="container">
-                    {data.length > 0 ? (data.map(item => (
+                    {data ? (data.map(item => (
                         <div key={item.id} className="card me-5">
                         <img src={item.image} className="card-img-top" alt="Kemeja Adj" width={100}/>
                         <div className="card-body">
@@ -31,7 +30,7 @@ export default function HeaderHasil(props) {
                             <button><Link to={`/DetailProduk/${item.id}`} className="btn">Pilih Mobil</Link></button>
                         </div>
                     </div>
-                    ))) : <p>Data Kosong</p>}
+                    ))) : <p>Data Tidak Ditemukan</p>}
                     
                 </div>
                 
