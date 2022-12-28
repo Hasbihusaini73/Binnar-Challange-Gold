@@ -9,15 +9,16 @@ export default function HasilPencarian() {
     const [data, setData] = useState(null)
     
     function showHasil(res) {
-        setData(res)    
+        
     }
+
 
     return (
         <>
             <Navigasi />
             <div className="headerHasilPencarian"></div>
             <Pencarian setShowHasil={showHasil}  value="hello" />
-            <Hasil data={data} />
+            <Hasil data={data}/>
             <Footer />
         </>
     )

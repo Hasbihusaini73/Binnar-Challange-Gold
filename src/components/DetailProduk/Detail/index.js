@@ -4,7 +4,7 @@ import axios from "axios"
 export default function Detail(props) {
     const {id} = props
     const [data, setData] = useState(null) 
-    const urlApi =   `https://bootcamp-rent-cars.herokuapp.com/admin/car/${id}`
+    const urlApi =  !id ? "https://bootcamp-rent-cars.herokuapp.com/admin/car/904" :  `https://bootcamp-rent-cars.herokuapp.com/admin/car/${id}`
     useEffect(() => {
         console.log(id)
         axios.get(urlApi, {
@@ -12,6 +12,7 @@ export default function Detail(props) {
                 "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTI0MjUwOX0.ZTx8L1MqJ4Az8KzoeYU2S614EQPnqk6Owv03PUSnkzc"
             }}).then(res => {
                 setData(res.data)
+
 
             })
     }, [])
