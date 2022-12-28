@@ -3,7 +3,7 @@ import "./index.css"
 export default function whyUs() {
     return (
         <div id="whyUs">
-                <section className="whyUs mt-5" id="whyUs">
+                <section className="whyUs mt-5 " id="whyUs">
             <div className="container">
                 <div className="row">
                 <div className="col fw-bold">

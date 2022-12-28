@@ -9,7 +9,7 @@ import Rightbutton from '../../../Assets/Rightbutton.png';
 
 const Testimoni = () => {
     return (
-            <section id="testi" className="testimonial">
+            <section  className="testimonial mt-5" id="testimoni">
                 <div className="container mt-5 pt-3">
                     <div className="row text-center">
                         <div className="col-12 col-lg-12 col-md-12 col-sm-12">

@@ -1,8 +1,9 @@
 
 
 #landingPage > section.home{
+
     background-color: var(--warnaUtama);
-    height: auto;
+    height: 70vh;
     padding: 100px 0;
 }
 
@@ -51,7 +52,7 @@
 @media screen and (max-width: 1000px) {
     #landingPage > section.home{
         font: 400px;
-        height: 85vh;
+        height: 130vh;
         padding-top: 8rem;
         overflow: hidden;
     }

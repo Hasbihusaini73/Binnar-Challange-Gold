@@ -11,8 +11,6 @@ export default function HasilPencarian() {
     function showHasil(res) {
         
     }
-
-
     return (
         <>
             <Navigasi />

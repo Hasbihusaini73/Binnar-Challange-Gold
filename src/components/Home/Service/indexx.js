@@ -3,7 +3,7 @@ import "./index.css"
 export default function Service() {
     return (
         <div id="Service">
-            <section className="service mt-5" id="service">
+            <section className="service mt-5 " id="service">
             <div className="container h-100">
             <div className="row h-100">
                 <div className="col-lg-6 position-relative">

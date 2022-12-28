@@ -1,9 +1,11 @@
 import "./index.css"
 import { Link } from "react-router-dom"
+
+
 export default function LandingPage() {
     return (
         <div id="landingPage">
-                <section className="home mb-5" id="home">
+                <section className="home mt-5" id="home">
                     <div className="container h-100">
                         <div className="row h-100 fw-bold">
                             <div className="kotak col-lg-6">

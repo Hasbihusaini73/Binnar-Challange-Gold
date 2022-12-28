@@ -10,6 +10,7 @@
 
 @media screen and (min-width: 1000px) {
     #pencarian > .pencarian{
+        margin-top: 3em;
         position: relative;
         display: flex;
         justify-content: center;
